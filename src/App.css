@@ -295,7 +295,12 @@ header #menu{
  
 }
 
-.teacher p{
+.teacher .description{
+  display: flex;
+  gap: 3rem;
+}
+
+.teacher .description p{
   font-size: 1.8rem;
   color:#666;
   width:65rem;
@@ -504,6 +509,18 @@ header #menu{
   .about .image img {
     height: 40vh;
   }
+
+  .teacher .description{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .teacher .description p{
+    font-size: 2rem;
+    width:35rem;
+  }
+  
 
   .contact .row form .box{
       width:100%;
