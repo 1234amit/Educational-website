@@ -8,6 +8,8 @@ const About = () => {
     <div>
         <section className="about" id="about">
 
+            <h1 className="heading">About us</h1>
+
             <div className="image">
                 <img src={img1} alt="" />
             </div>

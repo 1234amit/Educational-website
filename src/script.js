@@ -8,7 +8,7 @@ $(document).ready(function() {
     });
 
     $(window).on('load scroll', function(){
-        $(this).removeClass('fa-times');
+        $('#menu').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
     });
 
