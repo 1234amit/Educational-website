@@ -207,6 +207,43 @@ header #menu{
 /* about section end here */
 
 
+/* services section start here */
+
+.service .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  align-items:flex-start;
+ 
+}
+
+.service .container .box{
+  padding: 2rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  border-radius: 10px;
+}
+
+.service .container .box img{
+  height:20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.service .container .box .content .title{
+  font-size: 2.5rem;
+  color:#444;
+  margin: 40px 0px 40px 0;
+}
+
+.service .container .box .content p{
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+/* services section end here */
+
 /* courses section start here */
 
 .course .box-container{

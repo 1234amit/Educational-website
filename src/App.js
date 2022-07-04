@@ -6,6 +6,7 @@ import Course from './components/Course';
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home';
+import Services from './components/Services';
 import Teacher from './components/Teacher';
 import './script.js';
 
@@ -18,6 +19,7 @@ const App = () => {
           <main>
             <Home />
             <About />
+            <Services />
             <Course />
             <Teacher />
             <ContactComponent />
